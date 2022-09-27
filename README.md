@@ -25,14 +25,14 @@ I will deploy it heruko. But, At this time heruko don't provide their free sever
 
 https://drive.google.com/file/d/1smW0yOgVpfJH503o0yH8fERZdBVtWX5F/view?usp=sharing
 
-# Here is some picture demo
+# Project Functionality Screenshot
 ### Login Page
 ![Screenshot from 2022-09-27 17-38-45](https://user-images.githubusercontent.com/61968457/192516296-eca8b998-c3ea-4470-94e4-5a8849d72c7f.png)
 
-### Profile Page With Personal Uplooaded Video
+### Profile Page With Personal Video
 ![Screenshot from 2022-09-27 17-20-09](https://user-images.githubusercontent.com/61968457/192516426-7674977c-f032-43fa-b405-5e0714a314d8.png)
 
-### Home Page With all video and Search Video
+### Home Page With all video and Search Box
 ![Screenshot from 2022-09-27 17-23-33](https://user-images.githubusercontent.com/61968457/192516689-30e8d34c-a7f7-4149-937b-46175df76822.png)
 
 ### Watching Single Video
