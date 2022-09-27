@@ -1,6 +1,6 @@
 # Qtube - Video Sharing App
 
-### Frontend: ReactJS, ReduxJS, Bootrap
+### Frontend: ReactJS, ReduxJS, Bootstrap
 ### Backend: NodeJS, ExpressJS, MongoDB
 
 
