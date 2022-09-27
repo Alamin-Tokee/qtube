@@ -36,7 +36,7 @@ http://localhost:5000/api/uvideo
 ![Screenshot from 2022-09-27 17-23-33](https://user-images.githubusercontent.com/61968457/192516689-30e8d34c-a7f7-4149-937b-46175df76822.png)
 
 ### Watching Single Video
-![Screenshot from 2022-09-27 17-37-49](https://user-images.githubusercontent.com/61968457/192516953-fae7b941-51b4-4766-ae99-75ab31221f86.png)
+![Screenshot from 2022-09-27 21-08-28](https://user-images.githubusercontent.com/61968457/192564661-0c906c56-3abf-467b-b8f3-5b6d073491a4.png)
 
 ### Video Upload With Description 
 ![Screenshot from 2022-09-27 17-31-00](https://user-images.githubusercontent.com/61968457/192517460-5a4a0fc2-ad1a-4e38-abc2-fd3a61f929c1.png)
