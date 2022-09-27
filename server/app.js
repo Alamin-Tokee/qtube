@@ -26,11 +26,11 @@ app.use(cookieParser());
 app.use("/api/users", auth);
 app.use("/api/video", video);
 app.use("/api/uvideo", upload);
-// app.use("/api/comment", require("./routes/comment"));
-// app.use("/api/rating", require("./routes/rating"));
 
 app.use(express.static("public"));
 app.use("/videos", express.static("videos"));
+
+// For production
 
 // if (process.env.NODE_ENV === "production") {
 //   app.use(express.static("client/build"));
