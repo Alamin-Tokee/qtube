@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
-  //show/hide nav menu
   const user = useSelector((state) => state.authReducer.authData);
   console.log(user);
 

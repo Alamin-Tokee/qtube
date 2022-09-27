@@ -13,9 +13,6 @@ const Recommend = ({ data }) => {
     viewVideo();
     setViews((prev) => prev + 1);
   };
-  // let dda = data.createdAt;
-  // let dateData = moment().startOf(dda).fromNow();
-  // console.log(dateData);
 
   return (
     <div

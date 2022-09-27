@@ -122,28 +122,6 @@ const Login = () => {
               </div>
             )}
 
-            {/* <div className="form-group">
-              <select
-                className="form-control"
-                id="contact-select"
-                name="inquiry"
-              >
-                <option value="-">Subject</option>
-                <option value="sales">Sales &amp; Marketing</option>
-                <option value="creative">Creative Design</option>
-                <option value="uiux">UI / UX</option>
-              </select>
-            </div> */}
-            {/* <div class="form-group">
-              <textarea
-                rows="8"
-                name="message"
-                className="form-control rounded-0"
-                placeholder="Message"
-                required
-              ></textarea>
-            </div> */}
-
             <div className="form-group tm-text-right">
               <button type="submit" class="btn btn-primary" disabled={loading}>
                 {loading ? "Loading.." : isSignUp ? "SignUp" : "SignIn"}

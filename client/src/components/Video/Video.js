@@ -13,11 +13,7 @@ const Video = ({ data }) => {
   const handleView = () => {
     viewVideo(id);
     setViews((prev) => prev + 1);
-    // navigate(`/video/${id}`);
   };
-  // let dda = data.createdAt;
-  // let dateData = moment().startOf(dda).fromNow();
-  // console.log(dateData);
 
   return (
     <div

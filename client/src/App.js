@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import Auth from "./pages/Auth/Auth";
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Vplayer from "./pages/Vplayer/Vplayer";
 import VideoUpload from "./pages/VideoUpload/VideoUpload";
 import About from "./pages/About/About";
@@ -14,17 +14,11 @@ import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 
 function App() {
-  //change nabavar style on scroolling
-  // window.addEventListener("scroll", () => {
-  //   document
-  //     .querySelector("nav")
-  //     .classList.toggle("window-scroll", window.scrollY > 0);
-  // });
-
   const user = useSelector((state) => state.authReducer.authData);
 
   return (
     <div className="app">
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/video/:id" element={<Vplayer />} />
@@ -43,6 +37,7 @@ function App() {
           element={user ? <VideoUpload /> : <Navigate to="../login" />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

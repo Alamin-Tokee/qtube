@@ -2,8 +2,6 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { logOut } from "../../actions/AuthActions";
-// import "./Header.css";
-// import HeaderImage from "../../images/header.svg";
 
 const ProfileContent = () => {
   const dispatch = useDispatch();

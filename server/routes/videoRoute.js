@@ -16,7 +16,7 @@ const router = express.Router();
 
 router.get("/", getAllVideo);
 router.get("/yvideo/:id", authMiddleware, getAllVideosByUserId);
-router.post("/create", authMiddleware, createVideo);
+router.post("/create", createVideo);
 router.get("/:id", getVideo);
 router.put("/:id", authMiddleware, updateVideo);
 router.delete("/:id", authMiddleware, deleteVideo);

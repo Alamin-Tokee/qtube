@@ -123,21 +123,6 @@ const getAllVideo = async (req, res) => {
   }
 };
 
-// const getAllVideo = async (req, res) => {
-//   // const videos = await Video.find();
-//   // console.log(videos);
-//   // console.log("Hello Bangladesh");
-//   try {
-//     // if (videos.length > 0) {
-//     //   // res.status(200).json(videos);
-//     // } else {
-//     //   res.status(200).json("Document is empty");
-//     // }
-//   } catch (error) {
-//     res.status(500).json(error);
-//   }
-// };
-
 // Video views
 const videoViews = async (req, res) => {
   const videoId = req.params.id;
@@ -151,7 +136,7 @@ const videoViews = async (req, res) => {
     res.status(500).json(error);
   }
 };
-
+// get video by ID
 const getAllVideosByUserId = async (req, res) => {
   const yId = req.params.id;
   try {
@@ -161,46 +146,6 @@ const getAllVideosByUserId = async (req, res) => {
     res.status(500).json(error);
   }
 };
-
-// // Get Timeline Video // Accordint to sucrimes videso
-// export const getTimelineVideos = async (req, res) => {
-//     const userId = req.params.id;
-
-//     try {
-//       const currentUserPosts = await PostModel.find({ userId: userId });
-//       const followingPosts = await UserModel.aggregate([
-//         {
-//           $match: {
-//             _id: new mongoose.Types.ObjectId(userId),
-//           },
-//         },
-//         {
-//           $lookup: {
-//             from: "posts",
-//             localField: "followings",
-//             foreignField: "userId",
-//             as: "followingPosts",
-//           },
-//         },
-//         {
-//           $project: {
-//             followingPosts: 1,
-//             _id: 0,
-//           },
-//         },
-//       ]);
-
-//       res
-//         .status(200)
-//         .json(currentUserPosts.concat(...followingPosts[0].followingPosts)
-//         .sort((a,b)=>{
-//             return b.createdAt - a.createdAt;
-//         })
-//         );
-//     } catch (error) {
-//       res.status(500).json(error);
-//     }
-//   };
 
 module.exports = {
   createVideo,

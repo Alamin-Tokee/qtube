@@ -38,12 +38,6 @@ const Upload = () => {
       const fileName = Date.now() + video.name;
       data.append("name", fileName);
       data.append("file", video);
-      // const data = {
-      //   name: fileName,
-      //   file: video,
-      // };
-
-      // console.log(data.name);
 
       newVideo.filepath = fileName;
 

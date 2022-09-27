@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Videos.css";
-// import { CoursesData } from "../../data";
 import { getAllVideos } from "../../actions/VideoActions";
 import Video from "../Video/Video";
 import { useParams } from "react-router-dom";
