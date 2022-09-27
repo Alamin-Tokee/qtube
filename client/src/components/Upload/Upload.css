@@ -1,0 +1,42 @@
+.form-control,
+input:-internal-autofill-selected,
+select:not([multiple]) {
+  color: #009999 !important;
+}
+
+.form-control {
+  padding: 10px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #009999;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  background-color: #009999;
+  border: 0;
+  border-radius: 5px;
+  padding: 12px 50px 14px;
+  font-size: 1.2rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #086969;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #009999;
+  pointer-events: all;
+  cursor: not-allowed;
+}
