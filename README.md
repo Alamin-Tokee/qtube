@@ -20,10 +20,10 @@
 7. POST Create video content: http://localhost:5000/api/video/create
 8. POST Upload video in server: http://localhost:5000/api/uvideo 
 
-# Video Demo link
+# Project Functionality Video Link
 I will deploy it heruko. But, At this time heruko don't provide their free severvice. For that reason, I provided pre-recorder video link here.
 
-http://localhost:5000/api/uvideo 
+https://drive.google.com/file/d/1smW0yOgVpfJH503o0yH8fERZdBVtWX5F/view?usp=sharing
 
 # Here is some picture demo
 ### Login Page
