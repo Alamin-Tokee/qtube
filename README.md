@@ -26,4 +26,20 @@ I will deploy it heruko. But, At this time heruko don't provide their free sever
 http://localhost:5000/api/uvideo 
 
 # Here is some picture demo
+### Login Page
+![Screenshot from 2022-09-27 17-38-45](https://user-images.githubusercontent.com/61968457/192516296-eca8b998-c3ea-4470-94e4-5a8849d72c7f.png)
+
+### Profile Page With Personal Uplooaded Video
+![Screenshot from 2022-09-27 17-20-09](https://user-images.githubusercontent.com/61968457/192516426-7674977c-f032-43fa-b405-5e0714a314d8.png)
+
+### Home Page With all video and Search Video
+![Screenshot from 2022-09-27 17-23-33](https://user-images.githubusercontent.com/61968457/192516689-30e8d34c-a7f7-4149-937b-46175df76822.png)
+
+### Watching Single Video
+![Screenshot from 2022-09-27 17-37-49](https://user-images.githubusercontent.com/61968457/192516953-fae7b941-51b4-4766-ae99-75ab31221f86.png)
+
+### Video Upload With Description 
+![Screenshot from 2022-09-27 17-38-45](https://user-images.githubusercontent.com/61968457/192517060-9163db4c-3fe8-432d-b9d5-0ed7be6c4b8f.png)
+
+
 
