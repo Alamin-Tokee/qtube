@@ -10,15 +10,16 @@ const {
   videoViews,
   getAllVideosByUserId,
 } = require("../controllers/videoController");
+const authMiddleware = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
 router.get("/", getAllVideo);
-router.get("/yvideo/:id", getAllVideosByUserId);
-router.post("/create", createVideo);
+router.get("/yvideo/:id", authMiddleware, getAllVideosByUserId);
+router.post("/create", authMiddleware, createVideo);
 router.get("/:id", getVideo);
-router.put("/:id", updateVideo);
-router.delete("/:id", deleteVideo);
+router.put("/:id", authMiddleware, updateVideo);
+router.delete("/:id", authMiddleware, deleteVideo);
 router.put("/:id/like", likeVideo);
 router.put("/:id/dislike", dislikeVideo);
 router.put("/:id/views", videoViews);
